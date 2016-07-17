@@ -1,8 +1,3 @@
-package Q5_07_Pairwise_Swap;
-
-import CtCILibrary.AssortedMethods;
-
-public class Question {
 
 	public static int swapOddEvenBits(int x) { 
 		return ( ((x & 0xaaaaaaaa) >>> 1) | ((x & 0x55555555) << 1) ); 
